@@ -1,0 +1,37 @@
+<div class="bg-dv text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+        <div class="col-lg-6 mx-auto">
+            <h3>Dejanos tu mensaje te responderemos lo antes posible!</h3>
+            <form [formGroup]="form" (ngSubmit)="aceptar()">
+                <div class="row formulario mt-5">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" id="nombre" placeholder="NOMBRE Y APELLIDO*"
+                            formControlName="nombre">
+
+                        <input type="text" class="form-control mt-3" id="email" placeholder="E-MAIL*"
+                            formControlName="email">
+
+                        <input type="number" class="form-control mt-3" id="celular" placeholder="CELULAR*"
+                            formControlName="celular">
+
+                        <input type="text" class="form-control mt-3" id="empresa" placeholder="EMPRESA"
+                            formControlName="empresa">
+                    </div>
+                    <div class="col-md-6 mb-6">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                formControlName="mensaje" style="height: 120px" maxlength="140"></textarea>
+                            <label for="floatingTextarea2">MENSAJE*&nbsp;&nbsp;</label>
+                        </div>
+                        <div class="col-md-12 d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-block mt-4" [disabled]="form.invalid">
+                                ENVIAR
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="bg-footer text-secondary px-4 py-5 text-center py-2"></div>
