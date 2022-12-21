@@ -1,5 +1,5 @@
 .altura{
-    height: 116px;
+    height: 77px;
 }
 
 .centrado{
@@ -13,4 +13,16 @@
 
 .bg-dv{
     background-color: #e0f4f2;
+}
+.f{
+    // float:;
+}
+
+.fuente{
+    font-family: "AcuminVariableConcept";
+    font-style: "OpenType";
+}
+@font-face {
+    font-family: "AcuminVariableConcept";
+    src: url("../../../font/AcuminVariableConcept.otf");
 }
