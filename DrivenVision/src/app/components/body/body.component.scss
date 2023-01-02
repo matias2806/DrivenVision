@@ -26,3 +26,13 @@
     font-family: "AcuminVariableConcept";
     src: url("../../../font/AcuminVariableConcept.otf");
 }
+
+.estiloBoton{
+    background-color: white;
+    border-color: #3EB6A6;
+    border-width: 3px;
+    box-shadow: -7px -7px rgba($color: #b8bdbd, $alpha: 1.0);
+    height: 60px;
+    text-decoration: none;
+    border-style: solid;
+}
