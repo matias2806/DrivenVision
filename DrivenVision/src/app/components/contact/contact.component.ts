@@ -37,7 +37,7 @@ export class ContactComponent implements OnInit {
     var empresa = this.form.controls['empresa'].value;
     var mensaje = this.form.controls['mensaje'].value;
 
-    var mensajeFinal = "#Celular:" + celular + "/n#Empresa:" + empresa + "/nMensaje:" + mensaje; 
+    var mensajeFinal = "#Celular:" + celular + "\n#Empresa:" + empresa + "\n#Mensaje:" + mensaje; 
 
     console.log("nombre => ", nombre);
     console.log("email => ", email);
@@ -47,7 +47,7 @@ export class ContactComponent implements OnInit {
     console.log("mensajeFinal =>", mensajeFinal);
 
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-      this.http.post('https://formspree.io/f/xdobkboa',
+      this.http.post('https://formspree.io/f/mayzyebn',
         { name:nombre, replyto: email, message:mensajeFinal },
         { 'headers': headers }).subscribe(
           response => {

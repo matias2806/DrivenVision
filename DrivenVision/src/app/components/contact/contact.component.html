@@ -6,27 +6,27 @@
                 <div class="row formulario mt-5">
                     <div class="col-md-6 mb-3">
                         <!-- TODO: Ver que el placeholder no se vaya -->
-                        <input type="text" class="estiloInput" id="nombre" placeholder="NOMBRE Y APELLIDO*"
+                        <input type="text" class="estiloInput fuente" id="nombre" placeholder="NOMBRE Y APELLIDO*"
                             formControlName="nombre">
 
-                        <input type="text" class="estiloInput mt-3" id="email" placeholder="E-MAIL*"
+                        <input type="text" class="estiloInput fuente mt-3" id="email" placeholder="E-MAIL*"
                             formControlName="email">
 
-                        <input type="number" class="estiloInput mt-3" id="celular" placeholder="CELULAR*"
+                        <input type="number" class="estiloInput fuente mt-3" id="celular" placeholder="CELULAR*"
                             formControlName="celular">
 
-                        <input type="text" class="estiloInput mt-3" id="empresa" placeholder="EMPRESA"
+                        <input type="text" class="estiloInput fuente mt-3" id="empresa" placeholder="EMPRESA"
                             formControlName="empresa">
                     </div>
                     <div class="col-md-6 mb-6">
                         <div class="form-floating">
-                            <textarea class="estiloInput" placeholder="MENSAJE*" id="floatingTextarea2"
-                                formControlName="mensaje" style="height: 120px" maxlength="140"></textarea>
+                            <textarea class="estiloInput fuente" placeholder="MENSAJE*" id="floatingTextarea2"
+                                formControlName="mensaje" style="height: 200px" maxlength="140"></textarea>
                             <!-- <label for="floatingTextarea2">MENSAJE*&nbsp;&nbsp;</label> -->
                         </div>
                         <div class="col-md-12 d-grid gap-2">
-                            <button type="submit" class="estiloBoton btn-block mt-4" [disabled]="form.invalid">
-                                ENVIAR
+                            <button type="submit" class="estiloBoton estiloBotonCorto btn-block mt-4" [disabled]="form.invalid">
+                                <b class="fuente">ENVIAR</b>
                             </button>
                         </div>
                     </div>
