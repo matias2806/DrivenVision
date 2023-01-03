@@ -60,3 +60,25 @@
 .colorLilaTexto{
     color:#8b59a5;
 }
+
+.div1{
+    position: absolute; 
+    left:50%; 
+    top:40px; 
+    // background-color: #7E9F8F; 
+    opacity: 0.5; 
+    height: 250px; 
+    width: 50%;
+    z-index: 2;
+    padding: 80px;
+}
+
+.div2{
+    position: absolute; 
+    left:200px; 
+    right: -50px; 
+    // background-color: #cf8299; 
+    opacity: 0.5; 
+    height: 250px; 
+    width: 100% -950px;
+}
