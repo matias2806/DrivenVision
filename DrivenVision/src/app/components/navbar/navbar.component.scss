@@ -17,7 +17,7 @@
     border-color: #3EB6A6;
     border-width: 3px;
     box-shadow: -7px -7px rgba($color: #b8bdbd, $alpha: 1.0);
-    height: 60px;
+    height: 40px;
     text-decoration: none;
     border-style: solid;
 }
@@ -29,5 +29,27 @@
 @font-face {
     font-family: "AcuminVariableConcept";
     src: url("../../../font/AcuminVariableConcept.otf");
+}
+
+.td1{
+    //extra-condesed Medium
+    transform: scale(1, 1.62);
+    font-weight: normal;
+    // font-size: 50px;
+}
+.td2{
+    //extra-condesed ligth violeta
+    transform: scale(1, 1.62);
+    font-weight: lighter;
+}
+.td3{
+    //semi-condesed ligth
+    transform: scale(1, 1.87);
+    font-weight: lighter;
+}
+.td4{
+    //semi-condesed bold
+    transform: scale(1, 1.87);
+    font-weight: bold
 }
 
