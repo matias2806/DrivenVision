@@ -47,7 +47,7 @@ export class ContactComponent implements OnInit {
     console.log("mensajeFinal =>", mensajeFinal);
 
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-      this.http.post('https://formspree.io/f/mayzyebn',
+      this.http.post('https://formspree.io/f/mrgvgwze',
         { name:nombre, replyto: email, message:mensajeFinal },
         { 'headers': headers }).subscribe(
           response => {
