@@ -124,19 +124,25 @@
 
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 50% 40%;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+
     gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    grid-auto-columns: minmax(10px, 1000px);
+    // grid-auto-rows: minmax(100px, auto);
+    // grid-auto-columns: minmax(10px, 1000px);
+    // background-color: rgba(0, 89, 255, 0.367);
+    padding: 10px;
 }
 
 .one{
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 1;
     // background-color: #b8bdbd;
     top: 25px;
     z-index: 3;
-    padding-right: 30%;
+    padding-right: 20%;
+    padding-left: 15%;
     // height: 200px;
     // width: 200px;
 }
