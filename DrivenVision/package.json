@@ -20,8 +20,6 @@
     "@angular/router": "~12.1.2",
     "@popperjs/core": "^2.11.6",
     "aos": "^2.3.4",
-    "bootstrap": "^5.2.3",
-    "jquery": "^3.6.2",
     "rxjs": "~6.6.0",
     "sweetalert2": "^11.6.16",
     "tslib": "^2.2.0",
