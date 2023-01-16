@@ -1,0 +1,82 @@
+.bg-dv{
+    background-color: #e0f4f2;
+}
+
+.centradoAltura{
+    display: flex;
+    align-items: center;
+}
+
+.estiloOpciones{
+    color: black;
+    //Aca la fuente
+}
+
+.estiloBoton{
+    background-color: white;
+    border-color: #3EB6A6;
+    border-width: 3px;
+    box-shadow: -7px -7px rgba($color: #b8bdbd, $alpha: 1.0);
+    height: 40px;
+    padding: 15px 10px 10px 10px;
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+}
+
+.fuente{
+    font-family: "AcuminVariableConcept";
+    font-style: "OpenType";
+}
+@font-face {
+    font-family: "AcuminVariableConcept";
+    src: url("../../../font/AcuminVariableConcept.otf");
+}
+
+.td1{
+    //extra-condesed Medium
+    transform: scale(1, 1.62);
+    font-weight: normal;
+    // font-size: 50px;
+}
+.td2{
+    //extra-condesed ligth violeta
+    transform: scale(1, 1.62);
+    font-weight: lighter;
+}
+.td3{
+    //semi-condesed ligth
+    transform: scale(1, 1.87);
+    font-weight: lighter;
+}
+.td4{
+    //semi-condesed bold
+    transform: scale(1, 1.87);
+    font-weight: bold
+}
+
+.negro{
+    color: black;
+}
+
+.aa{
+    margin-top: 20px;
+}
+
+.a{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.tamanioLogo{
+    // width: 328px;
+    // height: 120px;
+
+    // width: 300px;
+    // height: 116px;
+
+    //2.73 cada vez
+    //56
+    //40
+}
