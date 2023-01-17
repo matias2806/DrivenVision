@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 import Swal from 'sweetalert2';
 
@@ -10,9 +10,9 @@ import Swal from 'sweetalert2';
 })
 export class ContactComponent implements OnInit {
 
-  public form: FormGroup;
+  public form: UntypedFormGroup;
 
-  constructor(private fb: FormBuilder, private http: HttpClient) {
+  constructor(private fb: UntypedFormBuilder, private http: HttpClient) {
     this.form = this.fb.group({
       'nombre': ['', [Validators.required]],
       'email': ['', Validators.required],
